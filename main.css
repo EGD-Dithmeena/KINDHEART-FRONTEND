@@ -1,0 +1,79 @@
+*{ 
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container .leftContent {
+    max-width: 300px;
+    position: fixed;
+    left: 0;
+    background-color: #c50404;
+    width: 30vw;
+    margin-top: 6vh;
+    height: 85vh;
+    border-radius: 0 20px 20px 0;
+}
+
+.container .leftContent .header{
+    padding-left: 50px;
+    color: white;
+}
+
+.container .leftContent .header .logo{
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.container .leftContent .header h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.container .leftContent .header p{
+    font-size: 10px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.675);
+}
+
+.container .leftContent .items {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.container .leftContent .items .item{
+    font-weight: 500;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.container .middleContent {
+    padding-top: 10vh;
+    margin-left: 30vw;
+    width: 40vw;
+    height: 100vh;
+}
+
+.container .middleContent table{
+    border: 1px solid black;
+    width: 95%;
+}
+
+.container .rightContent {
+    position: fixed;
+    right: 0;
+    background-color: #ffffff;
+    width: 25vw;
+    margin-top: 6vh;
+    height: 85vh;
+    margin-right: 5vw;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0.1px #00000041;
+}
